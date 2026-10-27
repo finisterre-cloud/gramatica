@@ -43,6 +43,7 @@ Puntuación y ortotipografía ([detalle](references/puntuacion.md)):
 - Comillas: preferir angulares «», luego inglesas “ ”, luego simples ‘ ’.
 - Números: _2026_ (años sin separador); miles con espacio a partir de cinco cifras: _12 500_; símbolos con espacio: _50 %_, _10 km_, _25 °C_.
 - Ordinales abreviados con punto y letra volada: _1.º_, _2.ª_, _3.er_.
+- Números romanos en mayúscula y sin letra volada, con cada signo repetido como máximo tres veces: _siglo XXI_, _Felipe VI_, _capítulo IV_, _XL_ (no _siglo xxi_, _capítulo IV.º_, _XXXX_).
 - Fechas: _21 de octubre de 2026_.
 
 Gramática ([detalle](references/gramatica.md)):

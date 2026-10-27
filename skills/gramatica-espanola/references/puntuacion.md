@@ -30,7 +30,7 @@ Sin coma:
 ## Punto y coma, dos puntos
 
 - **Punto y coma**: separa elementos de una enumeración que ya contienen comas, y oraciones relacionadas: _Hay tres entornos: desarrollo, local; pruebas, en la nube; producción, en el clúster._ También antes de conectores en oraciones largas: _Tenía permisos; sin embargo, falló._
-- **Dos puntos**: anuncian una enumeración, una cita, una explicación o una conclusión; tras ellos, minúscula (salvo cita, saludo o lista en párrafos separados): _Necesitás tres cosas: Node, pnpm y Git._ No se ponen entre un verbo y sus complementos: _Los requisitos son Node y pnpm_, no _Los requisitos son: Node y pnpm_ (en listas verticales se tolera).
+- **Dos puntos**: anuncian una enumeración, una cita, una explicación o una conclusión; tras ellos, minúscula (salvo cita, saludo o lista en párrafos separados): _Necesitas tres cosas: Node, pnpm y Git._ No se ponen entre un verbo y sus complementos: _Los requisitos son Node y pnpm_, no _Los requisitos son: Node y pnpm_ (en listas verticales se tolera).
 
 ## Punto
 
@@ -66,7 +66,49 @@ Sin coma:
 - **Separador decimal**: coma o punto, según el uso del país (coma en España, Argentina, Chile, Colombia, Uruguay...; punto en México, Centroamérica, Puerto Rico...). Uno solo en todo el texto.
 - **Símbolos**: con espacio entre la cifra y el símbolo, y sin punto ni plural: _50 %_, _10 km_, _3 kg_, _25 °C_, _100 €_. El signo _$_ suele anteponerse según el uso de cada país: _$100_. Excepción: grados de ángulo sin espacio (_45°_).
 - **Ordinales**: _1.º, 2.ª, 3.er, 1.os_ (punto y letra volada). No _1ro, 1er, 2do_. En texto, con letras: _primer lugar, vigésimo aniversario_.
-- **Siglos**: en números romanos y versalitas: _siglo XXI_.
+
+### Números romanos
+
+Signos: _I_ (1), _V_ (5), _X_ (10), _L_ (50), _C_ (100), _D_ (500), _M_ (1000).
+
+Formación:
+
+- Un signo a la derecha de otro de valor igual o mayor suma: _XV_ (15), _XXVI_ (26), _MDL_ (1550).
+- _I_, _X_ y _C_ a la izquierda de un signo mayor restan, y solo ante los dos inmediatamente superiores: _I_ ante _V_ y _X_ (_IV_, _IX_); _X_ ante _L_ y _C_ (_XL_, _XC_); _C_ ante _D_ y _M_ (_CD_, _CM_). Así, 49 es _XLIX_ y 99 es _XCIX_ (no _IL_, _IC_).
+- _V_, _L_ y _D_ nunca restan ni se repiten: 45 es _XLV_ (no _VL_); 10 es _X_ (no _VV_).
+- _I_, _X_, _C_ y _M_ se repiten como máximo tres veces seguidas: 4 es _IV_ y 40 es _XL_ (no _IIII_, _XXXX_). La única excepción actual es el _IIII_ tradicional de las esferas de reloj.
+- Una raya horizontal sobre un signo o grupo multiplica su valor por mil (_V̄_ = 5000). Su uso es raro.
+
+Forma:
+
+- Se escriben con mayúsculas, que pueden ser versales (de tamaño normal) o versalitas (_small caps_, del tamaño de una minúscula):
+  - Versales cuando el número acompaña a un nombre propio o va solo: _Felipe VI_, _Juan XXIII_, _IX Congreso Internacional de la Lengua Española_, _MCMXCII_ en una placa.
+  - Versalitas cuando acompaña a un sustantivo en minúscula: _siglo XXI_, _tomo II_, _capítulo IV_, _página XIII_, _la XVIII dinastía_, con el número en versalitas.
+  - Para componer versalitas: en HTML, `font-variant-caps: all-small-caps` sobre el número en mayúsculas (`<span style="font-variant-caps: all-small-caps">XXI</span>`), así el texto copiado sigue siendo _XXI_; en LaTeX (`\textsc{xxi}`) y en Word (efecto Versalitas), sobre el número en minúsculas.
+  - Donde no hay versalitas (Markdown, texto plano, terminal, cadenas de interfaz), usa versales: _siglo XXI_. Compón siempre el número con letras latinas comunes: ni minúsculas (_siglo xxi_), ni letras fonéticas de versalita (_ᴠɪ_), ni los caracteres especiales de números romanos (_Ⅻ_), que muchas fuentes, buscadores y lectores de pantalla no interpretan bien.
+- Excepción: los apartados o elementos de una lista pueden numerarse con romanos en minúscula: _los incisos vi) y vii) del reglamento_.
+- No llevan letra volada aunque tengan valor ordinal: _capítulo VI_, _Felipe II_ (no _capítulo VI.º_, _Felipe II.º_).
+
+Usos y posición respecto del sustantivo:
+
+| Uso                                                                  | Posición               | Ejemplos                                          |
+| -------------------------------------------------------------------- | ---------------------- | ------------------------------------------------- |
+| Siglos                                                               | pospuesto              | _siglo XXI_, _siglo III a. C._ (no _siglo 21_)    |
+| Papas, reyes y emperadores del mismo nombre                          | pospuesto              | _Benedicto XVI_, _Felipe VI_, _Carlos V_          |
+| Volúmenes, tomos, partes, libros, capítulos, anexos, actos y escenas | pospuesto              | _tomo II_, _anexo IV_, _acto III_                 |
+| Páginas preliminares de una obra (prólogo, introducción)             | pospuesto              | _página XIII_                                     |
+| Congresos, campeonatos, certámenes, festivales                       | normalmente antepuesto | _IX Congreso Internacional de la Lengua Española_ |
+| Dinastías                                                            | antepuesto             | _la XVIII dinastía_                               |
+| Años en monumentos y placas conmemorativas                           | —                      | _MCMXCII_                                         |
+| Año de edición de una publicación periódica                          | —                      | _año XXV_                                         |
+| Carreteras nacionales españolas                                      | —                      | _N-II_                                            |
+
+Para cualquier otro número, usa cifras arábigas o letras.
+
+Lectura (al pasarlos a letras o en textos para leer en voz alta):
+
+- Papas y reyes: ordinal hasta el _IX_ (_Felipe II_, «segundo»); con _X_, ordinal o cardinal (_Alfonso X_, «décimo» o «diez»); desde el _XI_, cardinal (_Luis XIV_, «catorce»; _Juan XXIII_, «veintitrés»).
+- Siglos: ordinal o cardinal hasta el _X_ (_siglo V_, «quinto» o «cinco»); desde el _XI_, solo cardinal (_siglo XXI_, «veintiuno», no «vigésimo primero»).
 
 ## Fechas y horas
 
