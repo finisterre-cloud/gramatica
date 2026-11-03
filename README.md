@@ -33,5 +33,6 @@ skills/
         ├── puntuacion.md
         ├── gramatica.md
         ├── estilo.md
-        └── regiones.md
+        ├── regiones.md
+        └── tecnico.md
 ```

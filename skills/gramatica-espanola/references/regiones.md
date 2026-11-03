@@ -1,6 +1,6 @@
 # Variedades regionales
 
-Todas las variedades cultas son correctas. Elige una y mantenla en todo el texto: tratamiento, plural de segunda persona, tiempos verbales, léxico y formato de números. Si el texto existente ya usa una, síguela; si el usuario escribe en una, úsala; si el público es internacional, usa el español neutro.
+Todas las variedades cultas son correctas. Elige una y mantenla en todo el texto: tratamiento, plural de segunda persona, tiempos verbales, léxico, formato de números y nombres de unidades. Si el texto existente ya usa una, síguela; si el usuario escribe en una, úsala; si el público es internacional, usa el español neutro.
 
 ## Resumen
 
@@ -93,3 +93,20 @@ Para un público de varios países (productos globales, documentación, traducci
 | _password_ | contraseña | contraseña, clave | contraseña |
 | _screen_ | pantalla | pantalla | pantalla |
 | _car_ | coche | carro, auto | vehículo, auto |
+
+## Nombres de las unidades del SI
+
+Cada país fija en su norma de metrología si usa la forma internacional (_ampere_, _watt_) o la adaptada (_amperio_, _vatio_). Las diferencias entre ambas están en [Unidades, símbolos y nomenclatura](tecnico.md#unidades-símbolos-y-nomenclatura).
+
+| Variedad | Forma | Norma |
+| --- | --- | --- |
+| España | adaptada | Real Decreto 2032/2009 |
+| México | internacional | NOM-008 |
+| Centroamérica | internacional en Costa Rica | Reglamento del SI de Costa Rica |
+| Caribe | sin norma identificada | — |
+| Andina | adaptada en Colombia y Ecuador; internacional en Perú, que admite también la adaptada | RETIE (Colombia), NTE INEN 1 (Ecuador), SLUMP (Perú) |
+| Chile | sin norma identificada | — |
+| Rioplatense | internacional en Argentina y Uruguay | SIMELA (Argentina), Ley 15.298 (Uruguay) |
+| Neutro | internacional, por ser la de uso internacional | SIMELA como referencia |
+
+Donde no hay norma identificada, incluidos los países que la tabla no menciona, usa la forma internacional, como en el español neutro.

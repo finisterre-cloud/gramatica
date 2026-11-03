@@ -73,7 +73,7 @@ La pasiva perifrástica sigue siendo válida cuando interesa destacar al pacient
 - Signos de apertura ¿ ¡ obligatorios.
 - Sin coma de Oxford antes de la _y_ final: _A, B y C_.
 - El punto va fuera de las comillas: _«así»._ (en inglés estadounidense, dentro).
-- Sin coma tras el saludo de una carta: _Hola, Ana:_ o _Estimada Ana:_ (dos puntos, no coma).
+- Saludo de cartas y correos con dos puntos: ver [Correspondencia](#correspondencia).
 - Números: separador de miles con espacio, no coma (_12 500_, no _12,500_).
 - Fechas: día, mes, año (_21/10/2026_), no mes primero.
 - Ordinales: _1.º, 2.ª_, no _1st, 1ro_.
@@ -87,7 +87,8 @@ La pasiva perifrástica sigue siendo válida cuando interesa destacar al pacient
 ## Extranjerismos
 
 - Antes de usar un extranjerismo, busca el equivalente español asentado: _correo electrónico_ o _correo_ (_e-mail_), _contraseña_ (_password_), _enlace_ (_link_), _descargar_ (_download_), _actualización_ (_update_), _comentarios_ (_feedback_ en muchos contextos), _reunión_ (_meeting_), _fecha límite_ (_deadline_).
-- Si no hay equivalente o el término técnico es el habitual en el campo (_software, framework, commit, frontend_), úsalo en cursiva (o como código si es un identificador). Los adaptados por la RAE van en redonda y con ortografía española: _wifi, clic, escáner, estándar, bloguero, tuit, eslogan_.
+- Si no hay equivalente asentado, usa el extranjerismo en cursiva: _marketing_, _show_. Los adaptados por la RAE van en redonda y con ortografía española: wifi, clic, escáner, estándar, bloguero, tuit, eslogan.
+- Excepción: en textos técnicos, los términos habituales del campo van en redonda (software, stent, leasing). Ver [Anglicismos técnicos](tecnico.md#anglicismos-técnicos).
 - Verbos derivados: preferir las formas asentadas (_chatear, clicar/cliquear, escanear, formatear, tuitear_) y evitar las innecesarias (_forwardear_ → _reenviar_; _matchear_ → _coincidir_; _setear_ → _configurar, establecer_).
 - Nombres de marcas, productos y comandos se escriben como en el original, sin cursiva: _GitHub, npm, Docker_.
 
@@ -112,10 +113,44 @@ Los lectores reconocen enseguida ciertos tics de los textos escritos por modelos
 | Cautela excesiva | _podría potencialmente ayudar a mejorar en cierta medida_ | Un solo matiz cuando haya incertidumbre real: _puede mejorar_. |
 | Formato excesivo | negritas en cada oración, viñetas para ideas que forman un razonamiento, emojis en títulos | Prosa para razonar, listas para elementos paralelos, negrita solo para lo que el lector no debe pasar por alto. |
 
-## Texto técnico y de interfaz
+## Redundancias
 
-- Identificadores, comandos, rutas, nombres de variables y valores literales: en formato de código y sin traducir (`git commit`, `package.json`, `true`).
-- Términos traducidos con consistencia: una vez elegido _repositorio_ o _rama_, mantenerlo en todo el texto.
-- Tratamiento coherente con el resto del producto: _tú_ (_Haz clic_), _vos_ (_Hacé clic_) o _usted_ (_Haga clic_).
-- Mensajes breves y directos; en botones, infinitivo o imperativo según la convención del producto (_Guardar_ / _Guarda_), siempre la misma.
-- Lenguaje inclusivo: la RAE no admite _-e_, _-x_ ni _@_ como marcas de género. Si el contexto pide evitar el masculino genérico, usar sustantivos colectivos o epicenos (_el equipo, el personal, la persona usuaria, quienes usen_) o reformular. Si el texto existente ya usa otra convención por decisión del autor, respétala.
+Una palabra que repite lo que ya dice otra sobra en la escritura, aunque en el habla tenga valor enfático:
+
+| Redundante | Escribe |
+| --- | --- |
+| _subir arriba_, _bajar abajo_, _salir afuera_, _entrar adentro_ | _subir_, _bajar_, _salir_, _entrar_ |
+| _hace dos años atrás_ | _hace dos años_ o _dos años atrás_ |
+| _volver a repetir_ (cuando es la primera repetición) | _repetir_ |
+| _prever de antemano_ | _prever_ |
+| _erario público_ | _erario_ |
+| _monopolio exclusivo_ | _monopolio_ |
+| _en el día de hoy_ | _hoy_ |
+| _número PIN_, _virus VIH_, _sistema GPS_ (la sigla ya incluye el sustantivo) | _el PIN_, _el VIH_, _el GPS_ |
+
+## Formas sin género
+
+La RAE considera válido el masculino genérico (_los usuarios_ incluye a usuarios y usuarias) y no admite _-e_, _-x_ ni _@_ como marcas de género. Cuando el contexto, el producto o el autor piden evitar el masculino genérico, usa recursos que respetan la norma:
+
+| Recurso | En lugar de | Escribe |
+| --- | --- | --- |
+| Sustantivo colectivo | _los empleados_, _los alumnos_, _los ciudadanos_ | _el personal_, _el alumnado_, _la ciudadanía_ |
+| Sustantivo epiceno (un solo género para ambos sexos) | _los interesados_ | _las personas interesadas_ |
+| Relativo sin marca de género | _los usuarios que se registren_ | _quienes se registren_ |
+| Reformulación sin adjetivo ni participio | _Bienvenido_, _¿Estás seguro?_, _Estás registrado_ | _Te damos la bienvenida_, _¿Quieres eliminar el archivo?_, _Tu cuenta está lista_ |
+| Segunda persona o impersonal | _El usuario debe confirmar el correo_ | _Confirma tu correo_ / _Hay que confirmar el correo_ |
+| Desdoblamiento, solo cuando la distinción importa | _los candidatos_ | _las candidatas y los candidatos_ |
+
+- Las barras (_estimado/a_) son habituales en formularios y textos con poco espacio; en la prosa entorpecen la lectura.
+- Si el texto existente ya usa otra convención por decisión del autor, respétala.
+- Para el femenino de profesiones y cargos (_la jueza_, _la ingeniera_), ver [gramática](gramatica.md#femeninos-de-profesiones-y-cargos).
+
+## Correspondencia
+
+- **Saludo**: termina en dos puntos, y el texto empieza en la línea siguiente con mayúscula: _Estimada Ana:_, _Hola, Ana:_. La coma tras el saludo es un anglicismo. Con _hola_, el nombre es un vocativo y va precedido de coma; con _estimado_ o _querido_, no.
+- **Destinatario colectivo o desconocido**: _Estimado equipo:_, _Estimados señores:_, _A quien corresponda:_
+- **Tratamiento**: con _usted_, concuerdan también los pronombres y posesivos: _Le escribo para confirmarle su reserva_ (no _Le escribo para confirmarte tu reserva_).
+- **Despedida**: en línea propia, cerrada con coma o con punto, y la firma debajo, sin punto. Formales: _Atentamente_, _Cordialmente_, _Saludos cordiales_. Informales: _Un saludo_, _Saludos_, _Un abrazo_.
+- **Asunto**: breve, con mayúscula solo inicial y sin punto final: _Cambio de fecha de la reunión_.
+- **Abreviaturas de tratamiento**: con mayúscula inicial y punto: _Sr._, _Sra._, _D._ y _D.ª_ (España), _Dr._, _Dra._, _Lic._, _Ing._, _Ud._ y _Uds._ (también _Vd._ y _Vds._). Escritas completas, en minúscula: _el señor Pérez_, _la doctora Ruiz_.
+- **Posdata**: _P. D._

@@ -58,7 +58,7 @@ _Qué, quién, cuál, cómo, cuándo, cuánto, dónde, adónde_ llevan tilde en 
 - Minúscula: días (_lunes_), meses (_octubre_), estaciones, idiomas (_español, inglés_), gentilicios (_argentina, mexicano_), religiones, puntos cardinales salvo en nombres propios (_el norte_, pero _Corea del Norte_), cargos y títulos (_el presidente, la ministra, el papa_), tratamientos (_usted, señor, doctora_).
 - Mayúscula inicial: nombres propios, nombres de instituciones (_Real Academia Española_), fechas históricas (_la Revolución de Mayo_), títulos de leyes, el primer término del título de una obra (_Cien años de soledad_).
 - Después de dos puntos va minúscula, salvo en saludos de cartas (_Estimada Ana: Le escribo..._), citas textuales y enumeraciones en párrafos aparte.
-- Siglas en mayúscula y sin puntos (_ONU, PDF, API_); acrónimos lexicalizados en minúscula (_láser, radar, ovni, sida_) y los nombres propios largos con inicial mayúscula (_Unesco, Unicef_).
+- Siglas y acrónimos: ver [Siglas](puntuacion.md#siglas).
 
 ## Prefijos
 
@@ -87,5 +87,5 @@ _Qué, quién, cuál, cómo, cuándo, cuánto, dónde, adónde_ llevan tilde en 
 
 - Sustantivos terminados en vocal átona o _-é_: _-s_ (_casas, cafés_). En _-í_ o _-ú_ tónicas: _-es_ o _-s_ (_esquíes/esquís, tabúes/tabús_).
 - En _-l, -n, -r, -d, -z, -j_: _-es_ (_errores, redes, relojes, píxeles_); la _z_ pasa a _c_ (_lápices_). En otras consonantes, normalmente _-s_ (_clics, robots, chats, cómics_). Las terminadas en _-s_ o _-x_ no agudas quedan invariables (_las crisis, los tórax, los lunes_).
-- Las siglas no tienen plural gráfico: _las ONG, los PDF, varias API_.
+- Plural de las siglas: ver [Siglas](puntuacion.md#siglas).
 - Las décadas no llevan _s_ ni apóstrofo: _los noventa_, _los años 90_ (no _los 90's_).

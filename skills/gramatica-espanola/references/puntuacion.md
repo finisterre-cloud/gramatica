@@ -119,5 +119,35 @@ Lectura (al pasarlos a letras o en textos para leer en voz alta):
 ## Abreviaturas, siglas y símbolos
 
 - Abreviaturas con punto y, si corresponde, tilde: _pág., núm., admón._ Plural de abreviaturas: _págs._, _pp._, _EE. UU._ (duplicando letras).
-- Siglas sin puntos ni espacios ni plural gráfico: _las ONG, los CEO, varios PDF_.
 - Símbolos sin punto ni plural: _km, kg, min, h, s, MB_.
+
+### Siglas
+
+- Se escriben en mayúscula, sin puntos ni espacios, y no tienen plural gráfico: el número lo marca el determinante. _Las ONG_, _los CEO_, _varios PDF_ (no _ONGs_, _ONG's_).
+- Las que se leen como palabra y funcionan como sustantivo común van en minúscula: _ovni_, _sida_, _láser_, _radar_, _pyme_. Las que son nombres propios de más de cuatro letras llevan solo inicial mayúscula: _Unesco_, _Unicef_, _Mercosur_.
+- Género: el del núcleo de la expresión completa: _la ONU_ (_Organización_), _el FMI_ (_Fondo_), _la NASA_ (_agencia_). Si el núcleo cambia según la región, también el género: _el PC_ donde se dice _ordenador_ o _computador_ (España, Chile, Colombia) y _la PC_ donde se dice _computadora_.
+- Primera mención: salvo que la sigla sea muy conocida, escribe el nombre completo con la sigla entre paréntesis; después, solo la sigla: _la Organización Mundial de la Salud (OMS)_.
+- Si existe una sigla española asentada, úsala en lugar de la inglesa. Las extranjeras sin equivalente se usan tal cual: _el FBI_, _la NASA_.
+
+| Inglés | Español |
+| --- | --- |
+| _AI_ | _IA_ (inteligencia artificial) |
+| _UN_ | _ONU_ |
+| _NATO_ | _OTAN_ |
+| _EU_ | _UE_ |
+| _WHO_ | _OMS_ |
+| _IMF_ | _FMI_ |
+| _OECD_ | _OCDE_ |
+| _NGO_ | _ONG_ |
+| _GDP_ | _PIB_ (producto interno bruto; _interior_ en España) |
+| _VAT_ | _IVA_ (impuesto al valor agregado; _sobre el valor añadido_ en España) |
+| _R&D_ | _I+D_ (investigación y desarrollo) |
+| _IT_ | _TI_ (tecnologías de la información) |
+| _HR_ | _RR. HH._ (recursos humanos) |
+| _US_, _USA_ | _EE. UU._ |
+| _DNA_ | _ADN_ |
+| _HIV_ | _VIH_ |
+| _AIDS_ | _sida_ |
+| _UFO_ | _ovni_ |
+
+Las abreviaturas inglesas de oficina se escriben en español en la prosa: _FAQ_ → _preguntas frecuentes_; _CEO_ → _director ejecutivo_ (_consejero delegado_ en España); _ASAP_ → _cuanto antes_; _FYI_ → _para tu información_; _TBD_ → _por definir_.

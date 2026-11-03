@@ -13,8 +13,9 @@ Escribe y revisa en español siguiendo la norma panhispánica (RAE y ASALE: _Ort
    - Tratamiento: _tú_, _vos_ (voseo: _tenés_, _podés_, _decí_) o _usted_.
    - Plural de segunda persona: _ustedes_ (América, Canarias, parte de Andalucía) o _vosotros_ (resto de España).
    - Separador decimal: coma o punto, según el país.
+   - Registro técnico o general: si el texto es técnico o científico, de cualquier área (informes, artículos, manuales, normas, documentación, software), aplica también las reglas de [texto técnico](references/tecnico.md).
 
-   Hecho cuando las tres decisiones están tomadas. Mantenlas en **todo** el texto: mezclar _tú_ con _vos_, o _ustedes_ con _vosotros_, es un error.
+   Hecho cuando las cuatro decisiones están tomadas. Mantenlas en **todo** el texto: mezclar _tú_ con _vos_, o _ustedes_ con _vosotros_, es un error.
 
 2. **Redacta o corrige** el texto.
 
@@ -45,6 +46,7 @@ Puntuación y ortotipografía ([detalle](references/puntuacion.md)):
 - Ordinales abreviados con punto y letra volada: _1.º_, _2.ª_, _3.er_.
 - Números romanos en mayúscula y sin letra volada, con cada signo repetido como máximo tres veces: _siglo XXI_, _Felipe VI_, _capítulo IV_, _XL_ (no _siglo xxi_, _capítulo IV.º_, _XXXX_).
 - Fechas: _21 de octubre de 2026_.
+- Siglas en su forma española y sin plural gráfico: _la IA_, _la OTAN_, _las ONG_ (no _la AI_, _las ONGs_).
 
 Gramática ([detalle](references/gramatica.md)):
 
@@ -54,6 +56,7 @@ Gramática ([detalle](references/gramatica.md)):
 - Concordancia de género y número entre sujeto y verbo, y entre sustantivo y adjetivo.
 - Pronombres: _lo/la_ para el complemento directo, _le_ para el indirecto (_la llamé_, _le dije_).
 - _Se lo_ (no _se los_) cuando el plural es del complemento indirecto: _Se lo expliqué a ellos_.
+- _e_ ante /i/ y _u_ ante /o/ (_padres e hijos_, _siete u ocho_); _o_ en lugar de _y/o_.
 
 Estilo y calcos ([detalle](references/estilo.md)):
 
@@ -62,4 +65,14 @@ Estilo y calcos ([detalle](references/estilo.md)):
 - Artículo, no posesivo, con partes del cuerpo y objetos propios: _Levantó la mano_.
 - Sin coma antes de la _y_ final de una enumeración simple: _rojo, verde y azul_.
 - Afirmaciones directas, sin muletillas de texto generado: _No se trata de X, se trata de Y_, tríadas automáticas, preguntas retóricas con respuesta, vocabulario inflado (_crucial, potenciar, sin fisuras_).
-- Extranjerismos crudos en cursiva (_software_, _backend_); los adaptados, en redonda (wifi, clic, escáner). Los identificadores de código van en formato de código.
+- Si hay que evitar el masculino genérico: colectivos, epicenos o reformulaciones (_el personal_, _quienes se registren_, _Te damos la bienvenida_), según [Formas sin género](references/estilo.md#formas-sin-género).
+- Extranjerismos crudos en cursiva (_marketing_, _show_); los adaptados, en redonda (wifi, clic, escáner). En textos técnicos, los términos habituales del campo también van en redonda (software, stent, leasing).
+
+Texto técnico, solo si el registro es técnico ([detalle](references/tecnico.md)):
+
+- Anglicismos habituales del campo en redonda, con plural en _-s_ (software, stent, quark; los stents); el término español cuando está asentado (_realimentación_, _valor atípico_, _base de datos_).
+- Símbolos de unidades con su mayúscula exacta (_km_, _kW_; _mW_ no es _MW_); magnitudes en cursiva y unidades en redonda (_m_ = 5 kg).
+- Nombres de unidades en minúscula, en la forma del texto o de su variedad: internacional (_ampere_, _miliwatt_) o adaptada (_amperio_, _milivatio_); sin variedad definida, la internacional.
+- Código, normas y versiones tal cual, con el código en su formato; sus números no cambian aunque la prosa use coma decimal (`0.5`, _ISO 9001:2015_).
+- Descripciones en presente: _La válvula se abre…_, _La función devuelve…_ (no _se abrirá_, _devolverá_).
+- Informática: siglas con el género del sustantivo principal en español (_la API_, _el SDK_); commits según la convención del repositorio o, si no hay, en infinitivo y sin punto final; interfaces con frases completas y reglas de plural, en lugar de fragmentos concatenados.
